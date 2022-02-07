@@ -7,7 +7,6 @@ import (
 
 func ExecuteQuery(query types.Query) string {
 
-	// fmt.Println(query.QueryString)
 	result := fcllib.NewFCLWrapper().GetLogLDALResult("../DefFile/Defs.txt", query.QueryString, `[{"ROOT":{
 		"peoples":[
 		{	"name":  "Tharindu","city":

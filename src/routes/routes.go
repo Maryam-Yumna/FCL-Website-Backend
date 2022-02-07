@@ -17,8 +17,8 @@ func Router() *mux.Router {
 		fmt.Fprintf(rw, "Home Route")
 
 	})
-	//execute query
 
+	//execute query
 	apiRoutes.HandleFunc("/query/execute", api.ExecuteQuery).Methods("POST")
 	return router
 }
