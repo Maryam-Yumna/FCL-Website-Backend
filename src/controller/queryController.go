@@ -8,7 +8,7 @@ import (
 func ExecuteQuery(query types.Query) string {
 
 	// fmt.Println(query.QueryString)
-	result := fcllib.NewFCLWrapper().GetLogLDALResult("C:\\Users\\Bisul\\Downloads\\Defs.txt", query.QueryString, `[{"ROOT":{
+	result := fcllib.NewFCLWrapper().GetLogLDALResult("../DefFile/Defs.txt", query.QueryString, `[{"ROOT":{
 		"peoples":[
 		{	"name":  "Tharindu","city":
 		"Gampaha"},{"name":"rajeen","city":"Gampaha"},{"name":"dias","city":"Colombo"}]}}]`)
