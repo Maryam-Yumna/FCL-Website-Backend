@@ -1,0 +1,583 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="LogAnalyzer"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LogAnalyzer">
+				<Option output="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/cmake-build-debug/LogAnalyzer.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/."/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0/x86_64-w64-mingw32"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0/backward"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include-fixed"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/cmake-build-debug/Makefile&quot;  VERBOSE=1 LogAnalyzer"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LogAnalyzer/fast">
+				<Option output="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/cmake-build-debug/LogAnalyzer.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/."/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0/x86_64-w64-mingw32"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0/backward"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include-fixed"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/cmake-build-debug/Makefile&quot;  VERBOSE=1 LogAnalyzer/fast"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/AdditionalFunctions.h">
+			<Option target="LogAnalyzer"/>
+		</Unit>
+		<Unit filename="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/Bool.cpp">
+			<Option target="LogAnalyzer"/>
+		</Unit>
+		<Unit filename="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/Bool.h">
+			<Option target="LogAnalyzer"/>
+		</Unit>
+		<Unit filename="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/BuildErrorHandler.cpp">
+			<Option target="LogAnalyzer"/>
+		</Unit>
+		<Unit filename="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/BuildErrorHandler.h">
+			<Option target="LogAnalyzer"/>
+		</Unit>
+		<Unit filename="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/CPlusPlusEntry.cpp">
+			<Option target="LogAnalyzer"/>
+		</Unit>
+		<Unit filename="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/CPlusPlusEntry.h">
+			<Option target="LogAnalyzer"/>
+		</Unit>
+		<Unit filename="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/Command.cpp">
+			<Option target="LogAnalyzer"/>
+		</Unit>
+		<Unit filename="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/Command.h">
+			<Option target="LogAnalyzer"/>
+		</Unit>
+		<Unit filename="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/CommonIncludes.h">
+			<Option target="LogAnalyzer"/>
+		</Unit>
+		<Unit filename="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/DateTime.h">
+			<Option target="LogAnalyzer"/>
+		</Unit>
+		<Unit filename="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/DateTimeOperations.cpp">
+			<Option target="LogAnalyzer"/>
+		</Unit>
+		<Unit filename="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/DateTimeOperations.h">
+			<Option target="LogAnalyzer"/>
+		</Unit>
+		<Unit filename="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/DateTimeOperations.hpp">
+			<Option target="LogAnalyzer"/>
+		</Unit>
+		<Unit filename="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/Debugger.cpp">
+			<Option target="LogAnalyzer"/>
+		</Unit>
+		<Unit filename="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/Debugger.h">
+			<Option target="LogAnalyzer"/>
+		</Unit>
+		<Unit filename="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/DefFileReader.cpp">
+			<Option target="LogAnalyzer"/>
+		</Unit>
+		<Unit filename="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/DefFileReader.h">
+			<Option target="LogAnalyzer"/>
+		</Unit>
+		<Unit filename="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/Defs.h">
+			<Option target="LogAnalyzer"/>
+		</Unit>
+		<Unit filename="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/ELBasicVariableParser.cpp">
+			<Option target="LogAnalyzer"/>
+		</Unit>
+		<Unit filename="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/ELBasicVariableParser.h">
+			<Option target="LogAnalyzer"/>
+		</Unit>
+		<Unit filename="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/ELBlockElement.cpp">
+			<Option target="LogAnalyzer"/>
+		</Unit>
+		<Unit filename="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/ELBlockElement.h">
+			<Option target="LogAnalyzer"/>
+		</Unit>
+		<Unit filename="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/ELBlockTemplate.cpp">
+			<Option target="LogAnalyzer"/>
+		</Unit>
+		<Unit filename="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/ELBlockTemplate.h">
+			<Option target="LogAnalyzer"/>
+		</Unit>
+		<Unit filename="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/ELBlockTemplateParser.cpp">
+			<Option target="LogAnalyzer"/>
+		</Unit>
+		<Unit filename="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/ELBlockTemplateParser.h">
+			<Option target="LogAnalyzer"/>
+		</Unit>
+		<Unit filename="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/ELCompositeVariableParser.cpp">
+			<Option target="LogAnalyzer"/>
+		</Unit>
+		<Unit filename="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/ELCompositeVariableParser.h">
+			<Option target="LogAnalyzer"/>
+		</Unit>
+		<Unit filename="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/ELConstantString.cpp">
+			<Option target="LogAnalyzer"/>
+		</Unit>
+		<Unit filename="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/ELConstantString.h">
+			<Option target="LogAnalyzer"/>
+		</Unit>
+		<Unit filename="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/ELFillerString.cpp">
+			<Option target="LogAnalyzer"/>
+		</Unit>
+		<Unit filename="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/ELFillerString.h">
+			<Option target="LogAnalyzer"/>
+		</Unit>
+		<Unit filename="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/ELFloat.cpp">
+			<Option target="LogAnalyzer"/>
+		</Unit>
+		<Unit filename="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/ELFloat.h">
+			<Option target="LogAnalyzer"/>
+		</Unit>
+		<Unit filename="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/ELInterpretedElement.cpp">
+			<Option target="LogAnalyzer"/>
+		</Unit>
+		<Unit filename="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/ELInterpretedElement.h">
+			<Option target="LogAnalyzer"/>
+		</Unit>
+		<Unit filename="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/ELInterpretter.cpp">
+			<Option target="LogAnalyzer"/>
+		</Unit>
+		<Unit filename="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/ELInterpretter.h">
+			<Option target="LogAnalyzer"/>
+		</Unit>
+		<Unit filename="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/ELLineParser.cpp">
+			<Option target="LogAnalyzer"/>
+		</Unit>
+		<Unit filename="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/ELLineParser.h">
+			<Option target="LogAnalyzer"/>
+		</Unit>
+		<Unit filename="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/ELLineParserResult.cpp">
+			<Option target="LogAnalyzer"/>
+		</Unit>
+		<Unit filename="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/ELLineParserResult.h">
+			<Option target="LogAnalyzer"/>
+		</Unit>
+		<Unit filename="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/ELLineTemplate.cpp">
+			<Option target="LogAnalyzer"/>
+		</Unit>
+		<Unit filename="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/ELLineTemplate.h">
+			<Option target="LogAnalyzer"/>
+		</Unit>
+		<Unit filename="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/ELLineTemplateParser.cpp">
+			<Option target="LogAnalyzer"/>
+		</Unit>
+		<Unit filename="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/ELLineTemplateParser.h">
+			<Option target="LogAnalyzer"/>
+		</Unit>
+		<Unit filename="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/ELListParser.cpp">
+			<Option target="LogAnalyzer"/>
+		</Unit>
+		<Unit filename="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/ELListParser.h">
+			<Option target="LogAnalyzer"/>
+		</Unit>
+		<Unit filename="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/ELNodeWrapper.cpp">
+			<Option target="LogAnalyzer"/>
+		</Unit>
+		<Unit filename="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/ELNodeWrapper.h">
+			<Option target="LogAnalyzer"/>
+		</Unit>
+		<Unit filename="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/ELNumber.cpp">
+			<Option target="LogAnalyzer"/>
+		</Unit>
+		<Unit filename="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/ELNumber.h">
+			<Option target="LogAnalyzer"/>
+		</Unit>
+		<Unit filename="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/ELParser.cpp">
+			<Option target="LogAnalyzer"/>
+		</Unit>
+		<Unit filename="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/ELParser.h">
+			<Option target="LogAnalyzer"/>
+		</Unit>
+		<Unit filename="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/ELParserResult.cpp">
+			<Option target="LogAnalyzer"/>
+		</Unit>
+		<Unit filename="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/ELParserResult.h">
+			<Option target="LogAnalyzer"/>
+		</Unit>
+		<Unit filename="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/ELSequenceBlockElement.cpp">
+			<Option target="LogAnalyzer"/>
+		</Unit>
+		<Unit filename="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/ELSequenceBlockElement.h">
+			<Option target="LogAnalyzer"/>
+		</Unit>
+		<Unit filename="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/ELSequenceVar.cpp">
+			<Option target="LogAnalyzer"/>
+		</Unit>
+		<Unit filename="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/ELSequenceVar.h">
+			<Option target="LogAnalyzer"/>
+		</Unit>
+		<Unit filename="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/ELSingularBlockElement.cpp">
+			<Option target="LogAnalyzer"/>
+		</Unit>
+		<Unit filename="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/ELSingularBlockElement.h">
+			<Option target="LogAnalyzer"/>
+		</Unit>
+		<Unit filename="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/ELSpacesString.cpp">
+			<Option target="LogAnalyzer"/>
+		</Unit>
+		<Unit filename="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/ELSpacesString.h">
+			<Option target="LogAnalyzer"/>
+		</Unit>
+		<Unit filename="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/ELString.cpp">
+			<Option target="LogAnalyzer"/>
+		</Unit>
+		<Unit filename="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/ELString.h">
+			<Option target="LogAnalyzer"/>
+		</Unit>
+		<Unit filename="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/ELStringLiteralParser.cpp">
+			<Option target="LogAnalyzer"/>
+		</Unit>
+		<Unit filename="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/ELStringLiteralParser.h">
+			<Option target="LogAnalyzer"/>
+		</Unit>
+		<Unit filename="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/ELText.cpp">
+			<Option target="LogAnalyzer"/>
+		</Unit>
+		<Unit filename="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/ELText.h">
+			<Option target="LogAnalyzer"/>
+		</Unit>
+		<Unit filename="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/ELVariable.cpp">
+			<Option target="LogAnalyzer"/>
+		</Unit>
+		<Unit filename="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/ELVariable.h">
+			<Option target="LogAnalyzer"/>
+		</Unit>
+		<Unit filename="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/ELVariableParser.cpp">
+			<Option target="LogAnalyzer"/>
+		</Unit>
+		<Unit filename="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/ELVariableParser.h">
+			<Option target="LogAnalyzer"/>
+		</Unit>
+		<Unit filename="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/Entity.h">
+			<Option target="LogAnalyzer"/>
+		</Unit>
+		<Unit filename="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/EntityList.cpp">
+			<Option target="LogAnalyzer"/>
+		</Unit>
+		<Unit filename="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/EntityList.h">
+			<Option target="LogAnalyzer"/>
+		</Unit>
+		<Unit filename="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/ExecutionContext.h">
+			<Option target="LogAnalyzer"/>
+		</Unit>
+		<Unit filename="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/ExecutionTemplate.cpp">
+			<Option target="LogAnalyzer"/>
+		</Unit>
+		<Unit filename="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/ExecutionTemplate.h">
+			<Option target="LogAnalyzer"/>
+		</Unit>
+		<Unit filename="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/ExecutionTemplateList.cpp">
+			<Option target="LogAnalyzer"/>
+		</Unit>
+		<Unit filename="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/ExecutionTemplateList.h">
+			<Option target="LogAnalyzer"/>
+		</Unit>
+		<Unit filename="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/FCLWrapper.cpp">
+			<Option target="LogAnalyzer"/>
+		</Unit>
+		<Unit filename="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/FCLWrapper.h">
+			<Option target="LogAnalyzer"/>
+		</Unit>
+		<Unit filename="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/ISpecialCommand.h">
+			<Option target="LogAnalyzer"/>
+		</Unit>
+		<Unit filename="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/Int.h">
+			<Option target="LogAnalyzer"/>
+		</Unit>
+		<Unit filename="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/LDAL_Wrapper.cpp">
+			<Option target="LogAnalyzer"/>
+		</Unit>
+		<Unit filename="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/LDAL_Wrapper.h">
+			<Option target="LogAnalyzer"/>
+		</Unit>
+		<Unit filename="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/LogJsonParser.cpp">
+			<Option target="LogAnalyzer"/>
+		</Unit>
+		<Unit filename="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/LogJsonParser.h">
+			<Option target="LogAnalyzer"/>
+		</Unit>
+		<Unit filename="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/Logger.h">
+			<Option target="LogAnalyzer"/>
+		</Unit>
+		<Unit filename="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/MemMan.cpp">
+			<Option target="LogAnalyzer"/>
+		</Unit>
+		<Unit filename="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/MemMan.h">
+			<Option target="LogAnalyzer"/>
+		</Unit>
+		<Unit filename="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/MetaData.h">
+			<Option target="LogAnalyzer"/>
+		</Unit>
+		<Unit filename="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/NamedPipeOperations.cpp">
+			<Option target="LogAnalyzer"/>
+		</Unit>
+		<Unit filename="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/NamedPipeOperations.h">
+			<Option target="LogAnalyzer"/>
+		</Unit>
+		<Unit filename="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/Node.cpp">
+			<Option target="LogAnalyzer"/>
+		</Unit>
+		<Unit filename="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/Node.h">
+			<Option target="LogAnalyzer"/>
+		</Unit>
+		<Unit filename="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/NodeCustomValueShorthand.cpp">
+			<Option target="LogAnalyzer"/>
+		</Unit>
+		<Unit filename="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/NodeCustomValueShorthand.h">
+			<Option target="LogAnalyzer"/>
+		</Unit>
+		<Unit filename="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/Null.h">
+			<Option target="LogAnalyzer"/>
+		</Unit>
+		<Unit filename="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/OTPParser.cpp">
+			<Option target="LogAnalyzer"/>
+		</Unit>
+		<Unit filename="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/OTPParser.h">
+			<Option target="LogAnalyzer"/>
+		</Unit>
+		<Unit filename="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/ProcessLog.h">
+			<Option target="LogAnalyzer"/>
+		</Unit>
+		<Unit filename="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/QueryExecuter.cpp">
+			<Option target="LogAnalyzer"/>
+		</Unit>
+		<Unit filename="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/QueryExecuter.h">
+			<Option target="LogAnalyzer"/>
+		</Unit>
+		<Unit filename="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/QueryTreeScript.cpp">
+			<Option target="LogAnalyzer"/>
+		</Unit>
+		<Unit filename="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/QueryTreeScript.h">
+			<Option target="LogAnalyzer"/>
+		</Unit>
+		<Unit filename="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/ResultGenerator.cpp">
+			<Option target="LogAnalyzer"/>
+		</Unit>
+		<Unit filename="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/ResultGenerator.h">
+			<Option target="LogAnalyzer"/>
+		</Unit>
+		<Unit filename="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/ScriptReader.cpp">
+			<Option target="LogAnalyzer"/>
+		</Unit>
+		<Unit filename="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/ScriptReader.h">
+			<Option target="LogAnalyzer"/>
+		</Unit>
+		<Unit filename="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/SpecialCommandExecuter.cpp">
+			<Option target="LogAnalyzer"/>
+		</Unit>
+		<Unit filename="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/SpecialCommandExecuter.h">
+			<Option target="LogAnalyzer"/>
+		</Unit>
+		<Unit filename="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/StringOperations.cpp">
+			<Option target="LogAnalyzer"/>
+		</Unit>
+		<Unit filename="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/StringOperations.h">
+			<Option target="LogAnalyzer"/>
+		</Unit>
+		<Unit filename="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/Strings.h">
+			<Option target="LogAnalyzer"/>
+		</Unit>
+		<Unit filename="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/Tests.cpp">
+			<Option target="LogAnalyzer"/>
+		</Unit>
+		<Unit filename="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/Tests.h">
+			<Option target="LogAnalyzer"/>
+		</Unit>
+		<Unit filename="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/TypeDefs.h">
+			<Option target="LogAnalyzer"/>
+		</Unit>
+		<Unit filename="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/Utils.cpp">
+			<Option target="LogAnalyzer"/>
+		</Unit>
+		<Unit filename="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/Utils.h">
+			<Option target="LogAnalyzer"/>
+		</Unit>
+		<Unit filename="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/Value.h">
+			<Option target="LogAnalyzer"/>
+		</Unit>
+		<Unit filename="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/allocators.h">
+			<Option target="LogAnalyzer"/>
+		</Unit>
+		<Unit filename="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/biginteger.h">
+			<Option target="LogAnalyzer"/>
+		</Unit>
+		<Unit filename="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/cursorstreamwrapper.h">
+			<Option target="LogAnalyzer"/>
+		</Unit>
+		<Unit filename="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/diyfp.h">
+			<Option target="LogAnalyzer"/>
+		</Unit>
+		<Unit filename="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/document.h">
+			<Option target="LogAnalyzer"/>
+		</Unit>
+		<Unit filename="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/dotenv.h">
+			<Option target="LogAnalyzer"/>
+		</Unit>
+		<Unit filename="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/dtoa.h">
+			<Option target="LogAnalyzer"/>
+		</Unit>
+		<Unit filename="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/easylogging++.cc">
+			<Option target="LogAnalyzer"/>
+		</Unit>
+		<Unit filename="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/easylogging++.h">
+			<Option target="LogAnalyzer"/>
+		</Unit>
+		<Unit filename="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/en.h">
+			<Option target="LogAnalyzer"/>
+		</Unit>
+		<Unit filename="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/encodedstream.h">
+			<Option target="LogAnalyzer"/>
+		</Unit>
+		<Unit filename="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/encodings.h">
+			<Option target="LogAnalyzer"/>
+		</Unit>
+		<Unit filename="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/error.h">
+			<Option target="LogAnalyzer"/>
+		</Unit>
+		<Unit filename="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/filereadstream.h">
+			<Option target="LogAnalyzer"/>
+		</Unit>
+		<Unit filename="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/filewritestream.h">
+			<Option target="LogAnalyzer"/>
+		</Unit>
+		<Unit filename="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/fwd.h">
+			<Option target="LogAnalyzer"/>
+		</Unit>
+		<Unit filename="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/ieee754.h">
+			<Option target="LogAnalyzer"/>
+		</Unit>
+		<Unit filename="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/istreamwrapper.h">
+			<Option target="LogAnalyzer"/>
+		</Unit>
+		<Unit filename="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/itoa.h">
+			<Option target="LogAnalyzer"/>
+		</Unit>
+		<Unit filename="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/json.hpp">
+			<Option target="LogAnalyzer"/>
+		</Unit>
+		<Unit filename="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/main.cpp">
+			<Option target="LogAnalyzer"/>
+		</Unit>
+		<Unit filename="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/main.h">
+			<Option target="LogAnalyzer"/>
+		</Unit>
+		<Unit filename="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/memorybuffer.h">
+			<Option target="LogAnalyzer"/>
+		</Unit>
+		<Unit filename="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/memorystream.h">
+			<Option target="LogAnalyzer"/>
+		</Unit>
+		<Unit filename="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/meta.h">
+			<Option target="LogAnalyzer"/>
+		</Unit>
+		<Unit filename="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/ostreamwrapper.h">
+			<Option target="LogAnalyzer"/>
+		</Unit>
+		<Unit filename="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/pointer.h">
+			<Option target="LogAnalyzer"/>
+		</Unit>
+		<Unit filename="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/pow10.h">
+			<Option target="LogAnalyzer"/>
+		</Unit>
+		<Unit filename="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/prettywriter.h">
+			<Option target="LogAnalyzer"/>
+		</Unit>
+		<Unit filename="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/rapidjson.h">
+			<Option target="LogAnalyzer"/>
+		</Unit>
+		<Unit filename="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/reader.h">
+			<Option target="LogAnalyzer"/>
+		</Unit>
+		<Unit filename="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/regex.h">
+			<Option target="LogAnalyzer"/>
+		</Unit>
+		<Unit filename="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/schema.h">
+			<Option target="LogAnalyzer"/>
+		</Unit>
+		<Unit filename="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/stack.h">
+			<Option target="LogAnalyzer"/>
+		</Unit>
+		<Unit filename="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/stream.h">
+			<Option target="LogAnalyzer"/>
+		</Unit>
+		<Unit filename="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/strfunc.h">
+			<Option target="LogAnalyzer"/>
+		</Unit>
+		<Unit filename="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/stringbuffer.h">
+			<Option target="LogAnalyzer"/>
+		</Unit>
+		<Unit filename="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/strtod.h">
+			<Option target="LogAnalyzer"/>
+		</Unit>
+		<Unit filename="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/swap.h">
+			<Option target="LogAnalyzer"/>
+		</Unit>
+		<Unit filename="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/writer.h">
+			<Option target="LogAnalyzer"/>
+		</Unit>
+		<Unit filename="E:/Tracified/QueryLanguageForDocumentation/LogAnalyzer/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

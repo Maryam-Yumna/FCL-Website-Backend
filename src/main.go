@@ -4,18 +4,16 @@ import (
 	"fmt"
 	"log"
 	"net/http"
+
+	"github.com/Maryam-Yumna/FCL-Website-Backend/src/routes"
 )
 
-func homePage(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprintf(w, "Welcome to the Home Page!")
-	fmt.Println("Endpoint Hit: homePage")
-}
-
-func handleRequests() {
-	http.HandleFunc("/", homePage)
-	log.Fatal(http.ListenAndServe(":3000", nil))
-}
-
 func main() {
-	handleRequests()
+	fmt.Println("Hello")
+	router := routes.Router()
+	router.Path("/")
+	http.Handle("/", router)
+	log.Println("Server Started localhost :3000")
+	log.Fatal(http.ListenAndServe(":3000", router))
+
 }
