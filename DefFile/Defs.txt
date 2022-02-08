@@ -1,5 +1,4 @@
-DEF	LOAD_FROM_CODE_LIBRARY			TRUE
-DEF	CODE_LIBRARY_FILE				D:/MurtazaCode/FlexibleComputerLanguage/FlexibleComputerLanguage/Masking/maskfunction.txt
+DEF	RULE_FILE_NAME					C:\Users\User\Desktop\newTdpTest\script.txt
 DEF	LINE_CONTINUATION_STRING			__
 DEF	FUNCTION_SEPERATOR				.
 DEF	EQUAL_SIGN					:=
@@ -92,9 +91,6 @@ DEF	IS_NULL						IsNull
 DEF	IS_NOT_NULL					IsNotNull
 DEF	BOOL_AND					And
 DEF	BOOL_OR						Or
-DEF MASK_VALUE					MaskValue
-DEF MASK_LOGDATA				MaskLogdata
-DEF SET_ATTRIBUTES				SetAttributes
 
 DEF	LDEL_SCRIPT_FILE				script.ldel
 DEF	LDEL_LOG_FILE					log.txt
@@ -165,14 +161,20 @@ DEF	GET_YEAR					GetYear
 DEF	GET_OLDEST_DATE					GetOldestDate
 DEF	GET_LATEST_DATE					GetLatestDate
 DEF	ADD_PERIOD					AddPeriod
-DEF	GET_UNIQUE_NODE_LIST_WITH_NODE_REF			GetUniqueNodeListWithNodeRef
-DEF SET_INTEGER                 SetInteger
+DEF	GET_UNIQUE_NODE_LIST_WITH_NODE_REF		GetUniqueNodeListWithNodeRef
+DEF 	SET_INTEGER                 			SetInteger
+DEF	QUERY_PROFILE_AND_TDPS                 	QueryProfileAndTDPs
+DEF	GET_NODE_OBJ                 			GetNodeObj
+DEF	MULTIPLY                 			Multiply
+DEF	ABSOLUTE_VALUE                 			AbsoluteValue
+DEF	DIVIDE                 			Divide
+DEF	QUERY_REVIEWS_BY_PROFILE_IDS                 	QueryReviewsByProfileIds
+DEF	STRING_TO_UNIX_TIME_2				StringToUnixTime2
+DEF	QUERY_REVIEWS_BY_IDENTIFIERS                 	QueryReviewsByIdentifiers
+DEF	QUERY_CERTIFICATES_BY_IDENTIFIERS                 	QueryCertificatesByIdentifiers
+DEF	QUERY_VALID_CERTIFICATES_BY_LOCATION                 	QueryValidCertificatesByLocation
+DEF	QUERY_ARTIFACTDATA_BY_TEMPLATE                 	QueryArtifactDataByTemplate
 DEF	PERCENTAGE                 	Percentage
 DEF	AVERAGE                 	Average
-DEF	LDEL_SCRIPT_FILE			../src/localstorage/0a159ae1-ac9f-46ac-970f-e28ee17d30d3/script.txt
-DEF	LDEL_LOG_FILE				../src/localstorage/0a159ae1-ac9f-46ac-970f-e28ee17d30d3/
-DEF	LDEL_RESULT_FILE			../src/localstorage/0a159ae1-ac9f-46ac-970f-e28ee17d30d3/result.txt
-DEF	LDEL_RESULT_JSONFILE			../src/localstorage/0a159ae1-ac9f-46ac-970f-e28ee17d30d3/JSONresult.json
-DEF	 TREE_LOCATION 			C:\Users\Bisul\Downloads\QueryTest\QueryTest\tree.txt
-DEF	 RULE_FILE_NAME			C:\Users\Bisul\Downloads\QueryTest\QueryTest\query.txt
-DEF	 DEBUG_JSON 			C:\Users\Bisul\Downloads\QueryTest\QueryTest\dbrs.json
+DEF     DEBUG_JSON             C:\Users\User\Desktop\newTdpTest\rs.json
+DEF     TREE_LOCATION          C:\Users\User\Desktop\newTdpTest\tdp.txt
